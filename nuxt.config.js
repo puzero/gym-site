@@ -1,8 +1,21 @@
 import colors from 'vuetify/es5/util/colors'
+import articles from './static/articles'
 
 export default {
   // Target (https://go.nuxtjs.dev/config-target)
   target: 'static',
+
+  router: {
+    base: '/gym-site',
+  },
+
+  publicRuntimeConfig: {
+    prefix: '/gym-site',
+  },
+
+  generate: {
+    routes: articles.map((item) => `/${item.category}/${item.section}`),
+  },
 
   // Global page headers (https://go.nuxtjs.dev/config-head)
   head: {

@@ -5,7 +5,10 @@
         <v-card-title class="headline grey lighten-2" primary-title>
           {{ dialogArticle.title }}
         </v-card-title>
-        <v-img class="white--text align-end" :src="dialogArticle.picture">
+        <v-img
+          class="white--text align-end"
+          :src="`${$config.prefix}/${dialogArticle.picture}`"
+        >
         </v-img>
         <v-card-text v-html="dialogArticle.text" />
 
@@ -41,7 +44,7 @@
                 <v-img
                   class="white--text align-end"
                   height="200px"
-                  :src="article.picture"
+                  :src="`${$config.prefix}/${article.picture}`"
                 >
                 </v-img>
                 <v-card-text

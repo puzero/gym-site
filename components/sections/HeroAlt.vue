@@ -5,7 +5,7 @@
       :key="i"
       width="100%"
       height="30vh"
-      :src="item.src"
+      :src="`${$config.prefix}/${item.src}`"
       class="gradient-fill"
       dark
     >
