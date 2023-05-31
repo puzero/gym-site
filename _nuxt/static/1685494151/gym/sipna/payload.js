@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/gym/sipna", {data:[{}],fetch:{},mutations:void 0});

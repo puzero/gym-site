@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/programms/kardio", {data:[{}],fetch:{},mutations:void 0});

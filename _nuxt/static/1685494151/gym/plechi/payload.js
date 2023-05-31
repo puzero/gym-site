@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/gym/plechi", {data:[{}],fetch:{},mutations:void 0});

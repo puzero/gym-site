@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/programms/massa", {data:[{}],fetch:{},mutations:void 0});
